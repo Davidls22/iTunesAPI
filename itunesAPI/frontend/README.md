@@ -41,6 +41,8 @@ Click add to favourites to add it to your favourites list.
 The favourites list is at the bottom of the page.
 To remove an item from your favourites list, click the "Remove" button next to it.
 
+Link to deployed App - https://itunesapi.onrender.com/
+
 Security
 
 The following security measures have been taken to ensure the security of this application:
