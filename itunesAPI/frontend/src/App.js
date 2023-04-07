@@ -18,7 +18,8 @@ function App() {
     e.preventDefault();
     try {
       // use fetch to query the iTunes API with the specified entity and term parameters
-      const response = await fetch(`http://localhost:8081/api/search/${entity}/${term}`);
+      //const response = await fetch(`http://localhost:8081/api/search/${entity}/${term}`);
+      const response = await fetch(`https://itunesapi.onrender.com/api/search/${entity}/${term}`);
       const data = await response.json();
       // update search results and search type state variables with the fetched data
       setSearchResults(data.results);
